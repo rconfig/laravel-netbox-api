@@ -1,7 +1,7 @@
 ## Laravel NetBox for rConfig
 NetBox is an open source web application designed to help manage and document computer networks. 
 
-This repository is a Laravel wrapper for the NetBox API forked from wickedsoft/laravel-netbox and pared back for use in rConfig. If has been tested on and update for PHP 8.1+ and Laravel 10+. 
+This repository is a Laravel wrapper for the NetBox API forked from wickedsoft/laravel-netbox and pared back for use in rConfig. If has been tested on and updated for PHP 8.1+ and Laravel 10 & 11. 
 
 All endpoints area available per below, but not all are tested. Please log issues if you find any that are not working.
 

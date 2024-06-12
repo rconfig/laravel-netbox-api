@@ -7,7 +7,7 @@ The install of this package is pretty straight forward
 ### Install
 Install this package with composer:
 ```
-composer require rconfig/laravel-netbox
+composer require rconfig/laravel-netbox-api
 ```
 
 ### Publish configuration
