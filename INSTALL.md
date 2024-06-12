@@ -13,7 +13,7 @@ composer require rconfig/laravel-netbox-api
 ### Publish configuration
 Copy the config files for laravel-netbox
 ```
-php artisan vendor:publish --provider="Rconfig\NetBox\ServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Rconfig\NetBox\NetBoxApiServiceProvider" --tag="config"
 ```
 
 ### Environment file
