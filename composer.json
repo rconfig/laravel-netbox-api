@@ -1,7 +1,7 @@
 {
     "name": "rconfig/laravel-netbox-api",
     "description": "Laravel Package for the Netbox API by rConfig",
-    "vewrsion": "1.0.0",
+    "vewrsion": "1.0.1",
     "authors": [
         {
             "name": "rConfig",
