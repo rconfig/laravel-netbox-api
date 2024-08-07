@@ -1,6 +1,7 @@
 {
     "name": "rconfig/laravel-netbox-api",
     "description": "Laravel Package for the Netbox API by rConfig",
+    "vewrsion": "1.0.0",
     "authors": [
         {
             "name": "rConfig",
@@ -28,6 +29,11 @@
         "files": [
             "src/helpers.php"
         ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rconfig\\NetBox\\Tests\\": "tests"
+        }
     },
     "extra": {
         "laravel": {

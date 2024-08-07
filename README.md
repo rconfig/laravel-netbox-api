@@ -16,582 +16,582 @@ All endpoints area available per below, but not all are tested. Please log issue
 ### Usage
 #### Global
 ```php
-NetBox::status()->show(array $params)
+NetBoxApi::status()->show(array $params)
 ```
 
 #### Circuits
 ```php
-NetBox::circuits()->list(array $params)
-NetBox::circuits()->add(array $params)
-NetBox::circuits()->remove(int $id, array $params)
-NetBox::circuits()->edit(int $id, array $params)
-NetBox::circuits()->show(int $id, array $params)
+NetBoxApi::circuits()->list(array $params)
+NetBoxApi::circuits()->add(array $params)
+NetBoxApi::circuits()->remove(int $id, array $params)
+NetBoxApi::circuits()->edit(int $id, array $params)
+NetBoxApi::circuits()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::providers()->list(array $params)
-NetBox::providers()->add(array $params)
-NetBox::providers()->remove(int $id, array $params)
-NetBox::providers()->edit(int $id, array $params)
-NetBox::providers()->show(int $id, array $params)
+NetBoxApi::providers()->list(array $params)
+NetBoxApi::providers()->add(array $params)
+NetBoxApi::providers()->remove(int $id, array $params)
+NetBoxApi::providers()->edit(int $id, array $params)
+NetBoxApi::providers()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::circuitTerminations()->list(array $params)
-NetBox::circuitTerminations()->add(array $params)
-NetBox::circuitTerminations()->remove(int $id, array $params)
-NetBox::circuitTerminations()->edit(int $id, array $params)
-NetBox::circuitTerminations()->show(int $id, array $params)
+NetBoxApi::circuitTerminations()->list(array $params)
+NetBoxApi::circuitTerminations()->add(array $params)
+NetBoxApi::circuitTerminations()->remove(int $id, array $params)
+NetBoxApi::circuitTerminations()->edit(int $id, array $params)
+NetBoxApi::circuitTerminations()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::circuitTypes()->list(array $params)
-NetBox::circuitTypes()->add(array $params)
-NetBox::circuitTypes()->remove(int $id, array $params)
-NetBox::circuitTypes()->edit(int $id, array $params)
-NetBox::circuitTypes()->show(int $id, array $params)
+NetBoxApi::circuitTypes()->list(array $params)
+NetBoxApi::circuitTypes()->add(array $params)
+NetBoxApi::circuitTypes()->remove(int $id, array $params)
+NetBoxApi::circuitTypes()->edit(int $id, array $params)
+NetBoxApi::circuitTypes()->show(int $id, array $params)
 ```
 
 #### DCIM
 ```php
-NetBox::cables()->list(array $params)
-NetBox::cables()->add(array $params)
-NetBox::cables()->remove(int $id, array $params)
-NetBox::cables()->edit(int $id, array $params)
-NetBox::cables()->show(int $id, array $params)
+NetBoxApi::cables()->list(array $params)
+NetBoxApi::cables()->add(array $params)
+NetBoxApi::cables()->remove(int $id, array $params)
+NetBoxApi::cables()->edit(int $id, array $params)
+NetBoxApi::cables()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::connectedDevices()->list(array $params)
+NetBoxApi::connectedDevices()->list(array $params)
 ```
 
 ```php
-NetBox::consoleConnections()->list(array $params)
+NetBoxApi::consoleConnections()->list(array $params)
 ```
 
 ```php
-NetBox::consolePorts()->list(array $params)
-NetBox::consolePorts()->add(array $params)
-NetBox::consolePorts()->remove(int $id, array $params)
-NetBox::consolePorts()->edit(int $id, array $params)
-NetBox::consolePorts()->show(int $id, array $params)
-NetBox::consolePorts()->trace(int $id, array $params)
+NetBoxApi::consolePorts()->list(array $params)
+NetBoxApi::consolePorts()->add(array $params)
+NetBoxApi::consolePorts()->remove(int $id, array $params)
+NetBoxApi::consolePorts()->edit(int $id, array $params)
+NetBoxApi::consolePorts()->show(int $id, array $params)
+NetBoxApi::consolePorts()->trace(int $id, array $params)
 ```
 
 ```php
-NetBox::consolePortTemplates()->list(array $params)
-NetBox::consolePortTemplates()->add(array $params)
-NetBox::consolePortTemplates()->remove(int $id, array $params)
-NetBox::consolePortTemplates()->edit(int $id, array $params)
-NetBox::consolePortTemplates()->show(int $id, array $params)
+NetBoxApi::consolePortTemplates()->list(array $params)
+NetBoxApi::consolePortTemplates()->add(array $params)
+NetBoxApi::consolePortTemplates()->remove(int $id, array $params)
+NetBoxApi::consolePortTemplates()->edit(int $id, array $params)
+NetBoxApi::consolePortTemplates()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::consoleServerPorts()->list(array $params)
-NetBox::consoleServerPorts()->add(array $params)
-NetBox::consoleServerPorts()->remove(int $id, array $params)
-NetBox::consoleServerPorts()->edit(int $id, array $params)
-NetBox::consoleServerPorts()->show(int $id, array $params)
+NetBoxApi::consoleServerPorts()->list(array $params)
+NetBoxApi::consoleServerPorts()->add(array $params)
+NetBoxApi::consoleServerPorts()->remove(int $id, array $params)
+NetBoxApi::consoleServerPorts()->edit(int $id, array $params)
+NetBoxApi::consoleServerPorts()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::consoleServerPortTemplates()->list(array $params)
-NetBox::consoleServerPortTemplates()->add(array $params)
-NetBox::consoleServerPortTemplates()->remove(int $id, array $params)
-NetBox::consoleServerPortTemplates()->edit(int $id, array $params)
-NetBox::consoleServerPortTemplates()->show(int $id, array $params)
+NetBoxApi::consoleServerPortTemplates()->list(array $params)
+NetBoxApi::consoleServerPortTemplates()->add(array $params)
+NetBoxApi::consoleServerPortTemplates()->remove(int $id, array $params)
+NetBoxApi::consoleServerPortTemplates()->edit(int $id, array $params)
+NetBoxApi::consoleServerPortTemplates()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::deviceBays()->list(array $params)
-NetBox::deviceBays()->add(array $params)
-NetBox::deviceBays()->remove(int $id, array $params)
-NetBox::deviceBays()->edit(int $id, array $params)
-NetBox::deviceBays()->show(int $id, array $params)
+NetBoxApi::deviceBays()->list(array $params)
+NetBoxApi::deviceBays()->add(array $params)
+NetBoxApi::deviceBays()->remove(int $id, array $params)
+NetBoxApi::deviceBays()->edit(int $id, array $params)
+NetBoxApi::deviceBays()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::deviceBayTemplates()->list(array $params)
-NetBox::deviceBayTemplates()->add(array $params)
-NetBox::deviceBayTemplates()->remove(int $id, array $params)
-NetBox::deviceBayTemplates()->edit(int $id, array $params)
-NetBox::deviceBayTemplates()->show(int $id, array $params)
+NetBoxApi::deviceBayTemplates()->list(array $params)
+NetBoxApi::deviceBayTemplates()->add(array $params)
+NetBoxApi::deviceBayTemplates()->remove(int $id, array $params)
+NetBoxApi::deviceBayTemplates()->edit(int $id, array $params)
+NetBoxApi::deviceBayTemplates()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::deviceRoles()->list(array $params)
-NetBox::deviceRoles()->add(array $params)
-NetBox::deviceRoles()->remove(int $id, array $params)
-NetBox::deviceRoles()->edit(int $id, array $params)
-NetBox::deviceRoles()->show(int $id, array $params)
+NetBoxApi::deviceRoles()->list(array $params)
+NetBoxApi::deviceRoles()->add(array $params)
+NetBoxApi::deviceRoles()->remove(int $id, array $params)
+NetBoxApi::deviceRoles()->edit(int $id, array $params)
+NetBoxApi::deviceRoles()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::devices()->list(array $params)
-NetBox::devices()->add(array $params)
-NetBox::devices()->remove(int $id, array $params)
-NetBox::devices()->edit(int $id, array $params)
-NetBox::devices()->show(int $id, array $params)
-NetBox::devices()->napalm(int $id, array $params)
+NetBoxApi::devices()->list(array $params)
+NetBoxApi::devices()->add(array $params)
+NetBoxApi::devices()->remove(int $id, array $params)
+NetBoxApi::devices()->edit(int $id, array $params)
+NetBoxApi::devices()->show(int $id, array $params)
+NetBoxApi::devices()->napalm(int $id, array $params)
 ```
 
 ```php
-NetBox::deviceTypes()->list(array $params)
-NetBox::deviceTypes()->add(array $params)
-NetBox::deviceTypes()->remove(int $id, array $params)
-NetBox::deviceTypes()->edit(int $id, array $params)
-NetBox::deviceTypes()->show(int $id, array $params)
+NetBoxApi::deviceTypes()->list(array $params)
+NetBoxApi::deviceTypes()->add(array $params)
+NetBoxApi::deviceTypes()->remove(int $id, array $params)
+NetBoxApi::deviceTypes()->edit(int $id, array $params)
+NetBoxApi::deviceTypes()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::frontPorts()->list(array $params)
-NetBox::frontPorts()->add(array $params)
-NetBox::frontPorts()->remove(int $id, array $params)
-NetBox::frontPorts()->edit(int $id, array $params)
-NetBox::frontPorts()->show(int $id, array $params)
-NetBox::frontPorts()->paths(int $id, array $params)
+NetBoxApi::frontPorts()->list(array $params)
+NetBoxApi::frontPorts()->add(array $params)
+NetBoxApi::frontPorts()->remove(int $id, array $params)
+NetBoxApi::frontPorts()->edit(int $id, array $params)
+NetBoxApi::frontPorts()->show(int $id, array $params)
+NetBoxApi::frontPorts()->paths(int $id, array $params)
 ```
 
 ```php
-NetBox::frontPortTemplates()->list(array $params)
-NetBox::frontPortTemplates()->add(array $params)
-NetBox::frontPortTemplates()->remove(int $id, array $params)
-NetBox::frontPortTemplates()->edit(int $id, array $params)
-NetBox::frontPortTemplates()->show(int $id, array $params)
+NetBoxApi::frontPortTemplates()->list(array $params)
+NetBoxApi::frontPortTemplates()->add(array $params)
+NetBoxApi::frontPortTemplates()->remove(int $id, array $params)
+NetBoxApi::frontPortTemplates()->edit(int $id, array $params)
+NetBoxApi::frontPortTemplates()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::interfaceConnections()->list(array $params)
+NetBoxApi::interfaceConnections()->list(array $params)
 ```
 
 ```php
-NetBox::interfaces()->list(array $params)
-NetBox::interfaces()->add(array $params)
-NetBox::interfaces()->remove(int $id, array $params)
-NetBox::interfaces()->edit(int $id, array $params)
-NetBox::interfaces()->show(int $id, array $params)
-NetBox::interfaces()->trace(int $id, array $params)
+NetBoxApi::interfaces()->list(array $params)
+NetBoxApi::interfaces()->add(array $params)
+NetBoxApi::interfaces()->remove(int $id, array $params)
+NetBoxApi::interfaces()->edit(int $id, array $params)
+NetBoxApi::interfaces()->show(int $id, array $params)
+NetBoxApi::interfaces()->trace(int $id, array $params)
 ```
 
 ```php
-NetBox::interfaceTemplates()->list(array $params)
-NetBox::interfaceTemplates()->add(array $params)
-NetBox::interfaceTemplates()->remove(int $id, array $params)
-NetBox::interfaceTemplates()->edit(int $id, array $params)
-NetBox::interfaceTemplates()->show(int $id, array $params)
+NetBoxApi::interfaceTemplates()->list(array $params)
+NetBoxApi::interfaceTemplates()->add(array $params)
+NetBoxApi::interfaceTemplates()->remove(int $id, array $params)
+NetBoxApi::interfaceTemplates()->edit(int $id, array $params)
+NetBoxApi::interfaceTemplates()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::inventoryItems()->list(array $params)
-NetBox::inventoryItems()->add(array $params)
-NetBox::inventoryItems()->remove(int $id, array $params)
-NetBox::inventoryItems()->edit(int $id, array $params)
-NetBox::inventoryItems()->show(int $id, array $params)
+NetBoxApi::inventoryItems()->list(array $params)
+NetBoxApi::inventoryItems()->add(array $params)
+NetBoxApi::inventoryItems()->remove(int $id, array $params)
+NetBoxApi::inventoryItems()->edit(int $id, array $params)
+NetBoxApi::inventoryItems()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::manufacturers()->list(array $params)
-NetBox::manufacturers()->add(array $params)
-NetBox::manufacturers()->remove(int $id, array $params)
-NetBox::manufacturers()->edit(int $id, array $params)
-NetBox::manufacturers()->show(int $id, array $params)
+NetBoxApi::manufacturers()->list(array $params)
+NetBoxApi::manufacturers()->add(array $params)
+NetBoxApi::manufacturers()->remove(int $id, array $params)
+NetBoxApi::manufacturers()->edit(int $id, array $params)
+NetBoxApi::manufacturers()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::platforms()->list(array $params)
-NetBox::platforms()->add(array $params)
-NetBox::platforms()->remove(int $id, array $params)
-NetBox::platforms()->edit(int $id, array $params)
-NetBox::platforms()->show(int $id, array $params)
+NetBoxApi::platforms()->list(array $params)
+NetBoxApi::platforms()->add(array $params)
+NetBoxApi::platforms()->remove(int $id, array $params)
+NetBoxApi::platforms()->edit(int $id, array $params)
+NetBoxApi::platforms()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::powerFeeds()->list(array $params)
-NetBox::powerFeeds()->add(array $params)
-NetBox::powerFeeds()->remove(int $id, array $params)
-NetBox::powerFeeds()->edit(int $id, array $params)
-NetBox::powerFeeds()->show(int $id, array $params)
-NetBox::powerFeeds()->trace(int $id, array $params)
+NetBoxApi::powerFeeds()->list(array $params)
+NetBoxApi::powerFeeds()->add(array $params)
+NetBoxApi::powerFeeds()->remove(int $id, array $params)
+NetBoxApi::powerFeeds()->edit(int $id, array $params)
+NetBoxApi::powerFeeds()->show(int $id, array $params)
+NetBoxApi::powerFeeds()->trace(int $id, array $params)
 ```
 
 ```php
-NetBox::powerOutlets()->list(array $params)
-NetBox::powerOutlets()->add(array $params)
-NetBox::powerOutlets()->remove(int $id, array $params)
-NetBox::powerOutlets()->edit(int $id, array $params)
-NetBox::powerOutlets()->show(int $id, array $params)
-NetBox::powerOutlets()->trace(int $id, array $params)
+NetBoxApi::powerOutlets()->list(array $params)
+NetBoxApi::powerOutlets()->add(array $params)
+NetBoxApi::powerOutlets()->remove(int $id, array $params)
+NetBoxApi::powerOutlets()->edit(int $id, array $params)
+NetBoxApi::powerOutlets()->show(int $id, array $params)
+NetBoxApi::powerOutlets()->trace(int $id, array $params)
 ```
 
 ```php
-NetBox::powerOutletTemplates()->list(array $params)
-NetBox::powerOutletTemplates()->add(array $params)
-NetBox::powerOutletTemplates()->remove(int $id, array $params)
-NetBox::powerOutletTemplates()->edit(int $id, array $params)
-NetBox::powerOutletTemplates()->show(int $id, array $params)
+NetBoxApi::powerOutletTemplates()->list(array $params)
+NetBoxApi::powerOutletTemplates()->add(array $params)
+NetBoxApi::powerOutletTemplates()->remove(int $id, array $params)
+NetBoxApi::powerOutletTemplates()->edit(int $id, array $params)
+NetBoxApi::powerOutletTemplates()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::powerPanels()->list(array $params)
-NetBox::powerPanels()->add(array $params)
-NetBox::powerPanels()->remove(int $id, array $params)
-NetBox::powerPanels()->edit(int $id, array $params)
-NetBox::powerPanels()->show(int $id, array $params)
+NetBoxApi::powerPanels()->list(array $params)
+NetBoxApi::powerPanels()->add(array $params)
+NetBoxApi::powerPanels()->remove(int $id, array $params)
+NetBoxApi::powerPanels()->edit(int $id, array $params)
+NetBoxApi::powerPanels()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::powerPorts()->list(array $params)
-NetBox::powerPorts()->add(array $params)
-NetBox::powerPorts()->remove(int $id, array $params)
-NetBox::powerPorts()->edit(int $id, array $params)
-NetBox::powerPorts()->show(int $id, array $params)
-NetBox::powerPorts()->trace(int $id, array $params)
+NetBoxApi::powerPorts()->list(array $params)
+NetBoxApi::powerPorts()->add(array $params)
+NetBoxApi::powerPorts()->remove(int $id, array $params)
+NetBoxApi::powerPorts()->edit(int $id, array $params)
+NetBoxApi::powerPorts()->show(int $id, array $params)
+NetBoxApi::powerPorts()->trace(int $id, array $params)
 ```
 
 ```php
-NetBox::powerPortTemplates()->list(array $params)
-NetBox::powerPortTemplates()->add(array $params)
-NetBox::powerPortTemplates()->remove(int $id, array $params)
-NetBox::powerPortTemplates()->edit(int $id, array $params)
-NetBox::powerPortTemplates()->show(int $id, array $params)
+NetBoxApi::powerPortTemplates()->list(array $params)
+NetBoxApi::powerPortTemplates()->add(array $params)
+NetBoxApi::powerPortTemplates()->remove(int $id, array $params)
+NetBoxApi::powerPortTemplates()->edit(int $id, array $params)
+NetBoxApi::powerPortTemplates()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::rackGroups()->list(array $params)
-NetBox::rackGroups()->add(array $params)
-NetBox::rackGroups()->remove(int $id, array $params)
-NetBox::rackGroups()->edit(int $id, array $params)
-NetBox::rackGroups()->show(int $id, array $params)
+NetBoxApi::rackGroups()->list(array $params)
+NetBoxApi::rackGroups()->add(array $params)
+NetBoxApi::rackGroups()->remove(int $id, array $params)
+NetBoxApi::rackGroups()->edit(int $id, array $params)
+NetBoxApi::rackGroups()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::rackReservations()->list(array $params)
-NetBox::rackReservations()->add(array $params)
-NetBox::rackReservations()->remove(int $id, array $params)
-NetBox::rackReservations()->edit(int $id, array $params)
-NetBox::rackReservations()->show(int $id, array $params)
+NetBoxApi::rackReservations()->list(array $params)
+NetBoxApi::rackReservations()->add(array $params)
+NetBoxApi::rackReservations()->remove(int $id, array $params)
+NetBoxApi::rackReservations()->edit(int $id, array $params)
+NetBoxApi::rackReservations()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::rackRoles()->list(array $params)
-NetBox::rackRoles()->add(array $params)
-NetBox::rackRoles()->remove(int $id, array $params)
-NetBox::rackRoles()->edit(int $id, array $params)
-NetBox::rackRoles()->show(int $id, array $params)
+NetBoxApi::rackRoles()->list(array $params)
+NetBoxApi::rackRoles()->add(array $params)
+NetBoxApi::rackRoles()->remove(int $id, array $params)
+NetBoxApi::rackRoles()->edit(int $id, array $params)
+NetBoxApi::rackRoles()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::racks()->list(array $params)
-NetBox::racks()->add(array $params)
-NetBox::racks()->remove(int $id, array $params)
-NetBox::racks()->edit(int $id, array $params)
-NetBox::racks()->show(int $id, array $params)
-NetBox::racks()->elevation(int $id, array $params)
+NetBoxApi::racks()->list(array $params)
+NetBoxApi::racks()->add(array $params)
+NetBoxApi::racks()->remove(int $id, array $params)
+NetBoxApi::racks()->edit(int $id, array $params)
+NetBoxApi::racks()->show(int $id, array $params)
+NetBoxApi::racks()->elevation(int $id, array $params)
 ```
 
 ```php
-NetBox::rearPorts()->list(array $params)
-NetBox::rearPorts()->add(array $params)
-NetBox::rearPorts()->remove(int $id, array $params)
-NetBox::rearPorts()->edit(int $id, array $params)
-NetBox::rearPorts()->show(int $id, array $params)
-NetBox::rearPorts()->paths(int $id, array $params)
+NetBoxApi::rearPorts()->list(array $params)
+NetBoxApi::rearPorts()->add(array $params)
+NetBoxApi::rearPorts()->remove(int $id, array $params)
+NetBoxApi::rearPorts()->edit(int $id, array $params)
+NetBoxApi::rearPorts()->show(int $id, array $params)
+NetBoxApi::rearPorts()->paths(int $id, array $params)
 ```
 
 ```php
-NetBox::rearPortTemplates()->list(array $params)
-NetBox::rearPortTemplates()->add(array $params)
-NetBox::rearPortTemplates()->remove(int $id, array $params)
-NetBox::rearPortTemplates()->edit(int $id, array $params)
-NetBox::rearPortTemplates()->show(int $id, array $params)
+NetBoxApi::rearPortTemplates()->list(array $params)
+NetBoxApi::rearPortTemplates()->add(array $params)
+NetBoxApi::rearPortTemplates()->remove(int $id, array $params)
+NetBoxApi::rearPortTemplates()->edit(int $id, array $params)
+NetBoxApi::rearPortTemplates()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::regions()->list(array $params)
-NetBox::regions()->add(array $params)
-NetBox::regions()->remove(int $id, array $params)
-NetBox::regions()->edit(int $id, array $params)
-NetBox::regions()->show(int $id, array $params)
+NetBoxApi::regions()->list(array $params)
+NetBoxApi::regions()->add(array $params)
+NetBoxApi::regions()->remove(int $id, array $params)
+NetBoxApi::regions()->edit(int $id, array $params)
+NetBoxApi::regions()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::sites()->list(array $params)
-NetBox::sites()->add(array $params)
-NetBox::sites()->remove(int $id, array $params)
-NetBox::sites()->edit(int $id, array $params)
-NetBox::sites()->show(int $id, array $params)
+NetBoxApi::sites()->list(array $params)
+NetBoxApi::sites()->add(array $params)
+NetBoxApi::sites()->remove(int $id, array $params)
+NetBoxApi::sites()->edit(int $id, array $params)
+NetBoxApi::sites()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::virtualChassis()->list(array $params)
-NetBox::virtualChassis()->add(array $params)
-NetBox::virtualChassis()->remove(int $id, array $params)
-NetBox::virtualChassis()->edit(int $id, array $params)
-NetBox::virtualChassis()->show(int $id, array $params)
+NetBoxApi::virtualChassis()->list(array $params)
+NetBoxApi::virtualChassis()->add(array $params)
+NetBoxApi::virtualChassis()->remove(int $id, array $params)
+NetBoxApi::virtualChassis()->edit(int $id, array $params)
+NetBoxApi::virtualChassis()->show(int $id, array $params)
 ```
 
 #### Extras
 ```php
-NetBox::configContexts()->list(array $params)
-NetBox::configContexts()->add(array $params)
-NetBox::configContexts()->remove(int $id, array $params)
-NetBox::configContexts()->edit(int $id, array $params)
-NetBox::configContexts()->show(int $id, array $params)
+NetBoxApi::configContexts()->list(array $params)
+NetBoxApi::configContexts()->add(array $params)
+NetBoxApi::configContexts()->remove(int $id, array $params)
+NetBoxApi::configContexts()->edit(int $id, array $params)
+NetBoxApi::configContexts()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::contentTypes()->list(array $params)
-NetBox::contentTypes()->show(int $id, array $params)
+NetBoxApi::contentTypes()->list(array $params)
+NetBoxApi::contentTypes()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::customFields()->list(array $params)
-NetBox::customFields()->add(array $params)
-NetBox::customFields()->remove(int $id, array $params)
-NetBox::customFields()->edit(int $id, array $params)
-NetBox::customFields()->show(int $id, array $params)
+NetBoxApi::customFields()->list(array $params)
+NetBoxApi::customFields()->add(array $params)
+NetBoxApi::customFields()->remove(int $id, array $params)
+NetBoxApi::customFields()->edit(int $id, array $params)
+NetBoxApi::customFields()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::exportTemplates()->list(array $params)
-NetBox::exportTemplates()->add(array $params)
-NetBox::exportTemplates()->remove(int $id, array $params)
-NetBox::exportTemplates()->edit(int $id, array $params)
-NetBox::exportTemplates()->show(int $id, array $params)
+NetBoxApi::exportTemplates()->list(array $params)
+NetBoxApi::exportTemplates()->add(array $params)
+NetBoxApi::exportTemplates()->remove(int $id, array $params)
+NetBoxApi::exportTemplates()->edit(int $id, array $params)
+NetBoxApi::exportTemplates()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::imageAttachments()->list(array $params)
-NetBox::imageAttachments()->add(array $params)
-NetBox::imageAttachments()->remove(int $id, array $params)
-NetBox::imageAttachments()->edit(int $id, array $params)
-NetBox::imageAttachments()->show(int $id, array $params)
+NetBoxApi::imageAttachments()->list(array $params)
+NetBoxApi::imageAttachments()->add(array $params)
+NetBoxApi::imageAttachments()->remove(int $id, array $params)
+NetBoxApi::imageAttachments()->edit(int $id, array $params)
+NetBoxApi::imageAttachments()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::jobResults()->list(array $params)
-NetBox::jobResults()->show(int $id, array $params)
+NetBoxApi::jobResults()->list(array $params)
+NetBoxApi::jobResults()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::objectChanges()->list(array $params)
-NetBox::objectChanges()->show(int $id, array $params)
+NetBoxApi::objectChanges()->list(array $params)
+NetBoxApi::objectChanges()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::reports()->list(array $params)
-NetBox::reports()->show(int $id, array $params)
-NetBox::reports()->run(int $id, array $params)
+NetBoxApi::reports()->list(array $params)
+NetBoxApi::reports()->show(int $id, array $params)
+NetBoxApi::reports()->run(int $id, array $params)
 ```
 
 ```php
-NetBox::scripts()->list(array $params)
-NetBox::scripts()->show(int $id, array $params)
+NetBoxApi::scripts()->list(array $params)
+NetBoxApi::scripts()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::tags()->list(array $params)
-NetBox::tags()->add(array $params)
-NetBox::tags()->remove(int $id, array $params)
-NetBox::tags()->edit(int $id, array $params)
-NetBox::tags()->show(int $id, array $params)
+NetBoxApi::tags()->list(array $params)
+NetBoxApi::tags()->add(array $params)
+NetBoxApi::tags()->remove(int $id, array $params)
+NetBoxApi::tags()->edit(int $id, array $params)
+NetBoxApi::tags()->show(int $id, array $params)
 ```
 
 #### IPAM
 ```php
-NetBox::aggregates()->list(array $params)
-NetBox::aggregates()->add(array $params)
-NetBox::aggregates()->remove(int $id, array $params)
-NetBox::aggregates()->edit(int $id, array $params)
-NetBox::aggregates()->show(int $id, array $params)
+NetBoxApi::aggregates()->list(array $params)
+NetBoxApi::aggregates()->add(array $params)
+NetBoxApi::aggregates()->remove(int $id, array $params)
+NetBoxApi::aggregates()->edit(int $id, array $params)
+NetBoxApi::aggregates()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::ipAddresses()->list(array $params)
-NetBox::ipAddresses()->add(array $params)
-NetBox::ipAddresses()->remove(int $id, array $params)
-NetBox::ipAddresses()->edit(int $id, array $params)
-NetBox::ipAddresses()->show(int $id, array $params)
+NetBoxApi::ipAddresses()->list(array $params)
+NetBoxApi::ipAddresses()->add(array $params)
+NetBoxApi::ipAddresses()->remove(int $id, array $params)
+NetBoxApi::ipAddresses()->edit(int $id, array $params)
+NetBoxApi::ipAddresses()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::prefixes()->list(array $params)
-NetBox::prefixes()->add(array $params)
-NetBox::prefixes()->remove(int $id, array $params)
-NetBox::prefixes()->edit(int $id, array $params)
-NetBox::prefixes()->show(int $id, array $params)
-NetBox::prefixes()->addAvailableIps(int $id, array $params)
-NetBox::prefixes()->showAvailableIps(int $id, array $params)
-NetBox::prefixes()->addAvailable(int $id, array $params)
-NetBox::prefixes()->showAvailable(int $id, array $params)
+NetBoxApi::prefixes()->list(array $params)
+NetBoxApi::prefixes()->add(array $params)
+NetBoxApi::prefixes()->remove(int $id, array $params)
+NetBoxApi::prefixes()->edit(int $id, array $params)
+NetBoxApi::prefixes()->show(int $id, array $params)
+NetBoxApi::prefixes()->addAvailableIps(int $id, array $params)
+NetBoxApi::prefixes()->showAvailableIps(int $id, array $params)
+NetBoxApi::prefixes()->addAvailable(int $id, array $params)
+NetBoxApi::prefixes()->showAvailable(int $id, array $params)
 ```
 
 ```php
-NetBox::rirs()->list(array $params)
-NetBox::rirs()->add(array $params)
-NetBox::rirs()->remove(int $id, array $params)
-NetBox::rirs()->edit(int $id, array $params)
-NetBox::rirs()->show(int $id, array $params)
+NetBoxApi::rirs()->list(array $params)
+NetBoxApi::rirs()->add(array $params)
+NetBoxApi::rirs()->remove(int $id, array $params)
+NetBoxApi::rirs()->edit(int $id, array $params)
+NetBoxApi::rirs()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::roles()->list(array $params)
-NetBox::roles()->add(array $params)
-NetBox::roles()->remove(int $id, array $params)
-NetBox::roles()->edit(int $id, array $params)
-NetBox::roles()->show(int $id, array $params)
+NetBoxApi::roles()->list(array $params)
+NetBoxApi::roles()->add(array $params)
+NetBoxApi::roles()->remove(int $id, array $params)
+NetBoxApi::roles()->edit(int $id, array $params)
+NetBoxApi::roles()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::routeTargets()->list(array $params)
-NetBox::routeTargets()->add(array $params)
-NetBox::routeTargets()->remove(int $id, array $params)
-NetBox::routeTargets()->edit(int $id, array $params)
-NetBox::routeTargets()->show(int $id, array $params)
+NetBoxApi::routeTargets()->list(array $params)
+NetBoxApi::routeTargets()->add(array $params)
+NetBoxApi::routeTargets()->remove(int $id, array $params)
+NetBoxApi::routeTargets()->edit(int $id, array $params)
+NetBoxApi::routeTargets()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::services()->list(array $params)
-NetBox::services()->add(array $params)
-NetBox::services()->remove(int $id, array $params)
-NetBox::services()->edit(int $id, array $params)
-NetBox::services()->show(int $id, array $params)
+NetBoxApi::services()->list(array $params)
+NetBoxApi::services()->add(array $params)
+NetBoxApi::services()->remove(int $id, array $params)
+NetBoxApi::services()->edit(int $id, array $params)
+NetBoxApi::services()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::vlanGroups()->list(array $params)
-NetBox::vlanGroups()->add(array $params)
-NetBox::vlanGroups()->remove(int $id, array $params)
-NetBox::vlanGroups()->edit(int $id, array $params)
-NetBox::vlanGroups()->show(int $id, array $params)
+NetBoxApi::vlanGroups()->list(array $params)
+NetBoxApi::vlanGroups()->add(array $params)
+NetBoxApi::vlanGroups()->remove(int $id, array $params)
+NetBoxApi::vlanGroups()->edit(int $id, array $params)
+NetBoxApi::vlanGroups()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::vlans()->list(array $params)
-NetBox::vlans()->add(array $params)
-NetBox::vlans()->remove(int $id, array $params)
-NetBox::vlans()->edit(int $id, array $params)
-NetBox::vlans()->show(int $id, array $params)
+NetBoxApi::vlans()->list(array $params)
+NetBoxApi::vlans()->add(array $params)
+NetBoxApi::vlans()->remove(int $id, array $params)
+NetBoxApi::vlans()->edit(int $id, array $params)
+NetBoxApi::vlans()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::vrfs()->list(array $params)
-NetBox::vrfs()->add(array $params)
-NetBox::vrfs()->remove(int $id, array $params)
-NetBox::vrfs()->edit(int $id, array $params)
-NetBox::vrfs()->show(int $id, array $params)
+NetBoxApi::vrfs()->list(array $params)
+NetBoxApi::vrfs()->add(array $params)
+NetBoxApi::vrfs()->remove(int $id, array $params)
+NetBoxApi::vrfs()->edit(int $id, array $params)
+NetBoxApi::vrfs()->show(int $id, array $params)
 ```
 
 #### Secrets
 ```php
-NetBox::keyGen()->list(array $params)
+NetBoxApi::keyGen()->list(array $params)
 ```
 
 ```php
-NetBox::secrets()->list(array $params)
-NetBox::secrets()->add(array $params)
-NetBox::secrets()->remove(int $id, array $params)
-NetBox::secrets()->edit(int $id, array $params)
-NetBox::secrets()->show(int $id, array $params)
+NetBoxApi::secrets()->list(array $params)
+NetBoxApi::secrets()->add(array $params)
+NetBoxApi::secrets()->remove(int $id, array $params)
+NetBoxApi::secrets()->edit(int $id, array $params)
+NetBoxApi::secrets()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::secretRoles()->list(array $params)
-NetBox::secretRoles()->add(array $params)
-NetBox::secretRoles()->remove(int $id, array $params)
-NetBox::secretRoles()->edit(int $id, array $params)
-NetBox::secretRoles()->show(int $id, array $params)
+NetBoxApi::secretRoles()->list(array $params)
+NetBoxApi::secretRoles()->add(array $params)
+NetBoxApi::secretRoles()->remove(int $id, array $params)
+NetBoxApi::secretRoles()->edit(int $id, array $params)
+NetBoxApi::secretRoles()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::session()->list(array $params)
+NetBoxApi::session()->list(array $params)
 ```
 
 #### Tenancy
 ```php
-NetBox::tenantGroups()->list(array $params)
-NetBox::tenantGroups()->add(array $params)
-NetBox::tenantGroups()->remove(int $id, array $params)
-NetBox::tenantGroups()->edit(int $id, array $params)
-NetBox::tenantGroups()->show(int $id, array $params)
+NetBoxApi::tenantGroups()->list(array $params)
+NetBoxApi::tenantGroups()->add(array $params)
+NetBoxApi::tenantGroups()->remove(int $id, array $params)
+NetBoxApi::tenantGroups()->edit(int $id, array $params)
+NetBoxApi::tenantGroups()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::tenants()->list(array $params)
-NetBox::tenants()->add(array $params)
-NetBox::tenants()->remove(int $id, array $params)
-NetBox::tenants()->edit(int $id, array $params)
-NetBox::tenants()->show(int $id, array $params)
+NetBoxApi::tenants()->list(array $params)
+NetBoxApi::tenants()->add(array $params)
+NetBoxApi::tenants()->remove(int $id, array $params)
+NetBoxApi::tenants()->edit(int $id, array $params)
+NetBoxApi::tenants()->show(int $id, array $params)
 ```
 
 #### Users
 ```php
-NetBox::config()->list(array $params)
+NetBoxApi::config()->list(array $params)
 ```
 
 ```php
-NetBox::groups()->list(array $params)
-NetBox::groups()->add(array $params)
-NetBox::groups()->remove(int $id, array $params)
-NetBox::groups()->edit(int $id, array $params)
-NetBox::groups()->show(int $id, array $params)
+NetBoxApi::groups()->list(array $params)
+NetBoxApi::groups()->add(array $params)
+NetBoxApi::groups()->remove(int $id, array $params)
+NetBoxApi::groups()->edit(int $id, array $params)
+NetBoxApi::groups()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::permissions()->list(array $params)
-NetBox::permissions()->add(array $params)
-NetBox::permissions()->remove(int $id, array $params)
-NetBox::permissions()->edit(int $id, array $params)
-NetBox::permissions()->show(int $id, array $params)
+NetBoxApi::permissions()->list(array $params)
+NetBoxApi::permissions()->add(array $params)
+NetBoxApi::permissions()->remove(int $id, array $params)
+NetBoxApi::permissions()->edit(int $id, array $params)
+NetBoxApi::permissions()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::users()->list(array $params)
-NetBox::users()->add(array $params)
-NetBox::users()->remove(int $id, array $params)
-NetBox::users()->edit(int $id, array $params)
-NetBox::users()->show(int $id, array $params)
+NetBoxApi::users()->list(array $params)
+NetBoxApi::users()->add(array $params)
+NetBoxApi::users()->remove(int $id, array $params)
+NetBoxApi::users()->edit(int $id, array $params)
+NetBoxApi::users()->show(int $id, array $params)
 ```
 
 #### Virtualization
 ```php
-NetBox::clusterGroups()->list(array $params)
-NetBox::clusterGroups()->add(array $params)
-NetBox::clusterGroups()->remove(int $id, array $params)
-NetBox::clusterGroups()->edit(int $id, array $params)
-NetBox::clusterGroups()->show(int $id, array $params)
+NetBoxApi::clusterGroups()->list(array $params)
+NetBoxApi::clusterGroups()->add(array $params)
+NetBoxApi::clusterGroups()->remove(int $id, array $params)
+NetBoxApi::clusterGroups()->edit(int $id, array $params)
+NetBoxApi::clusterGroups()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::clusters()->list(array $params)
-NetBox::clusters()->add(array $params)
-NetBox::clusters()->remove(int $id, array $params)
-NetBox::clusters()->edit(int $id, array $params)
-NetBox::clusters()->show(int $id, array $params)
+NetBoxApi::clusters()->list(array $params)
+NetBoxApi::clusters()->add(array $params)
+NetBoxApi::clusters()->remove(int $id, array $params)
+NetBoxApi::clusters()->edit(int $id, array $params)
+NetBoxApi::clusters()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::clusterTypes()->list(array $params)
-NetBox::clusterTypes()->add(array $params)
-NetBox::clusterTypes()->remove(int $id, array $params)
-NetBox::clusterTypes()->edit(int $id, array $params)
-NetBox::clusterTypes()->show(int $id, array $params)
+NetBoxApi::clusterTypes()->list(array $params)
+NetBoxApi::clusterTypes()->add(array $params)
+NetBoxApi::clusterTypes()->remove(int $id, array $params)
+NetBoxApi::clusterTypes()->edit(int $id, array $params)
+NetBoxApi::clusterTypes()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::vinterfaces()->list(array $params)
-NetBox::vinterfaces()->add(array $params)
-NetBox::vinterfaces()->remove(int $id, array $params)
-NetBox::vinterfaces()->edit(int $id, array $params)
-NetBox::vinterfaces()->show(int $id, array $params)
+NetBoxApi::vinterfaces()->list(array $params)
+NetBoxApi::vinterfaces()->add(array $params)
+NetBoxApi::vinterfaces()->remove(int $id, array $params)
+NetBoxApi::vinterfaces()->edit(int $id, array $params)
+NetBoxApi::vinterfaces()->show(int $id, array $params)
 ```
 
 ```php
-NetBox::virtualMachines()->list(array $params)
-NetBox::virtualMachines()->add(array $params)
-NetBox::virtualMachines()->remove(int $id, array $params)
-NetBox::virtualMachines()->edit(int $id, array $params)
-NetBox::virtualMachines()->show(int $id, array $params)
+NetBoxApi::virtualMachines()->list(array $params)
+NetBoxApi::virtualMachines()->add(array $params)
+NetBoxApi::virtualMachines()->remove(int $id, array $params)
+NetBoxApi::virtualMachines()->edit(int $id, array $params)
+NetBoxApi::virtualMachines()->show(int $id, array $params)
 ```
  
  
@@ -626,7 +626,7 @@ To use another netbox than your default one, you can specify it with the site me
 // UsersController
 public function getIndex()
 {
-    $users = NetBox::site('chicago')->users()->list([
+    $users = NetBoxApi::site('chicago')->users()->list([
         'limit' => 20
     ]);
 
@@ -644,6 +644,7 @@ $params = [
     'tag' => 'excluded',
 ];
 
+
 $response2 = NetBoxApi::devices()->list($params);
 dd($response2);
-- - -
+```

@@ -1,0 +1,5 @@
+Add this to main phpunit.xml file
+
+        <testsuite name="rConfigNetbox">
+            <directory suffix="Test.php">./vendor/rconfig/laravel-netbox-api</directory>
+        </testsuite>
