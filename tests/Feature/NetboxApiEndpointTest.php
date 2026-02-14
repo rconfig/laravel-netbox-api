@@ -44,10 +44,10 @@ class NetboxApiEndpointTest extends TestCase
             'display' => $devicenameForTest,
             'name' => $devicenameForTest,
             'device_type' => 1,
+            'primary_ip' => '1.1.1.1',
             'role' => 1,
             'site' => 1,
             'tags' =>  [1, 2]
-
         ];
 
         NetBoxApi::devices()->add($deviceData);

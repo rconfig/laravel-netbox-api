@@ -44,12 +44,13 @@ class HttpClient implements HttpClientInterface
      */
     public function get($path = "", $query = [])
     {
+        $options = $this->options;
+        $options['query'] = $query;
+
         $response = $this->getClient()->request(
             'GET',
             config('netbox.sites.default.url') . $path,
-            [
-                'query' => $query
-            ]
+            $options
         );
         return json_decode((string)$response->getBody(), true);
     }
@@ -61,12 +62,13 @@ class HttpClient implements HttpClientInterface
      */
     public function post($path = "", $body = [])
     {
+        $options = $this->options;
+        $options['json'] = $body;
+
         $response = $this->getClient()->request(
             'POST',
             config('netbox.sites.default.url') . $path,
-            [
-                'json' => $body
-            ]
+            $options
         );
         return json_decode((string)$response->getBody(), true);
     }
@@ -78,12 +80,13 @@ class HttpClient implements HttpClientInterface
      */
     public function put($path = "", $body = [])
     {
+        $options = $this->options;
+        $options['json'] = $body;
+
         $response = $this->getClient()->request(
             'PUT',
             config('netbox.sites.default.url') . $path,
-            [
-                'json' => $body
-            ]
+            $options
         );
         return json_decode((string)$response->getBody(), true);
     }
@@ -95,12 +98,13 @@ class HttpClient implements HttpClientInterface
      */
     public function delete($path = "", $body = [])
     {
+        $options = $this->options;
+        $options['json'] = $body;
+
         $response = $this->getClient()->request(
             'DELETE',
             config('netbox.sites.default.url') . $path,
-            [
-                'json' => $body
-            ]
+            $options
         );
         return json_decode((string)$response->getBody(), true);
     }
